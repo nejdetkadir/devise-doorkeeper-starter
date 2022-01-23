@@ -2,7 +2,9 @@
 
 module Api
   module V1
-    class ApidocsController < ApplicationController
+    class ApidocsController < ApiController
+      skip_before_action :doorkeeper_authorize!
+
       include Swagger::Blocks
 
       swagger_root do
