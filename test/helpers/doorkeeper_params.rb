@@ -29,5 +29,13 @@ module Helpers
         client_secret: token.application.secret
       }
     end
+
+    def oauth_register_params(user, application)
+      {
+        email: user.email,
+        password: user.password,
+        client_id: application.uid
+      }
+    end
   end
 end
