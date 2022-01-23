@@ -60,6 +60,9 @@ gem "doorkeeper", "~> 5.5", ">= 5.5.4"
 # Define and serve live-updating Swagger JSON for Ruby apps [https://github.com/fotinakis/swagger-blocks]
 gem "swagger-blocks"
 
+# Rack Middleware for handling Cross-Origin Resource Sharing (CORS) [https://github.com/cyu/rack-cors]
+gem "rack-cors"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
