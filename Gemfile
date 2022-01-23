@@ -57,6 +57,9 @@ group :development, :test do
 
   # A library for generating fake data such as names, addresses, and phone numbers [https://github.com/faker-ruby/faker]
   gem "faker", git: "https://github.com/faker-ruby/faker.git", branch: "master"
+
+  # Define and serve live-updating Swagger JSON for Ruby apps [https://github.com/fotinakis/swagger-blocks]
+  gem "swagger-blocks"
 end
 
 group :development do
