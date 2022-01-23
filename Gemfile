@@ -57,15 +57,15 @@ gem "devise", "~> 4.8", ">= 4.8.1"
 # Doorkeeper is an OAuth 2 provider for Rails and Grape [https://github.com/doorkeeper-gem/doorkeeper]
 gem "doorkeeper", "~> 5.5", ">= 5.5.4"
 
+# Define and serve live-updating Swagger JSON for Ruby apps [https://github.com/fotinakis/swagger-blocks]
+gem "swagger-blocks"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 
   # A library for generating fake data such as names, addresses, and phone numbers [https://github.com/faker-ruby/faker]
   gem "faker", git: "https://github.com/faker-ruby/faker.git", branch: "master"
-
-  # Define and serve live-updating Swagger JSON for Ruby apps [https://github.com/fotinakis/swagger-blocks]
-  gem "swagger-blocks"
 end
 
 group :development do
