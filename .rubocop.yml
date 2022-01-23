@@ -21,3 +21,7 @@ Metrics/MethodLength:
 
 Rails/Output:
   Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - app/controllers/swagger/**/*
