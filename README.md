@@ -1,4 +1,4 @@
-![build & test & quality](https://github.com/nejdetkadir/devise-doorkeeper-starter/actions/workflows/main.yml/badge.svg?branch=master)
+![build & test & quality](https://github.com/nejdetkadir/devise-doorkeeper-starter/actions/workflows/main.yml/badge.svg?branch=main)
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
 ![Ruby Version](https://img.shields.io/badge/ruby_version-2.7.2-blue.svg)
 ![Rails Version](https://img.shields.io/badge/rails_version-7.0.1-c52f24.svg)
