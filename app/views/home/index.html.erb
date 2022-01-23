@@ -6,3 +6,10 @@
 <% else %>
   <%= link_to "Sign in", new_user_registration_path %>
 <% end %>
+
+<%= link_to "Swagger UI", swagger_root_path, target: "_blank" %>
+
+<p>You can testing API with following credentials.</p>
+<pre>
+<%= @application.as_json %>
+</pre>
