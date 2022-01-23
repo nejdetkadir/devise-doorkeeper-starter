@@ -70,11 +70,7 @@ Style/ClassAndModuleChildren:
 # Offense count: 2
 # Configuration parameters: AllowedConstants.
 Style/Documentation:
-  Exclude:
-    - 'spec/**/*'
-    - 'test/**/*'
-    - 'app/helpers/application_helper.rb'
-    - 'config/application.rb'
+  Enabled: false
 
 # Offense count: 1
 # Cop supports --auto-correct.
